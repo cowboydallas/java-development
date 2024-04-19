@@ -28,14 +28,14 @@ public class AddressBuilder {
 
 
         data.append("Full Name: " + fullName + "\n");
-        data.append("Billing Street: " + billingStreet + " ");
-        data.append("Billing City: " + billingCity + ", ");
-        data.append("Billing State: " + billingState + ", ");
-        data.append("Billing Zip: " + billingZip + ", ");
-        data.append("Shipping Street: " + shippingStreet + ", ");
-        data.append("Shipping City: " + shippingCity + ", ");
-        data.append("Shipping State " + shippingState + ", ");
-        data.append("Shipping Zip " + shippingZip + ", ");
+        data.append("Billing Street: " + billingStreet + "\n");
+        data.append("Billing City: " + billingCity + "\n");
+        data.append("Billing State: " + billingState + "\n");
+        data.append("Billing Zip: " + billingZip + "\n");
+        data.append("\n" + "Shipping Street: " + shippingStreet + "\n");
+        data.append("Shipping City: " + shippingCity + "\n");
+        data.append("Shipping State " + shippingState + "\n");
+        data.append("Shipping Zip " + shippingZip);
 
         String myData = data.toString();
         System.out.println(myData);
